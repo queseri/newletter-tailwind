@@ -6,10 +6,10 @@ import check from "./assets/images/icon-success.svg";
 function MainContent({ email, validate, setEmail, error }) {
     return (
         <main
-            className="overflow-auto max-w-[58rem] md:rounded-[36px] mx-auto
-         bg-white md:flex flex-row-reverse md:p-4 md:m-8"
+            className="overflow-auto max-w-[58rem] md:rounded-[36px] 
+         bg-white md:flex flex-row-reverse md:p-8 md:m-8"
         >
-            <div className="flex justify-center md:justify-end">
+            <div className="flex justify-center md:justify-end md:flex-2">
                 <picture>
                     <source
                         media="(min-width: 38.75rem )"
@@ -18,8 +18,10 @@ function MainContent({ email, validate, setEmail, error }) {
                     <img src={mobileImg} alt="" width={375} height={284} />
                 </picture>
             </div>
-            <div className="my-8 mx-6 flex flex-col justify-center gap-6">
-                <h1 className="text-2xl font-bold">Stay updated!</h1>
+            <div className="my-8 mx-6 flex flex-col justify-center gap-6 md:pe-8">
+                <h1 className="text-2xl md:text-4xl font-bold text-left">
+                    Stay updated!
+                </h1>
                 <p className="text-left">
                     Join 60,000+ product managers receiving monthly updates on:
                 </p>

@@ -3,7 +3,11 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            flex: {
+                2: "2 2 50%",
+            },
+        },
         fontSize: {
             sm: "0.8rem",
             base: "1rem",
@@ -12,7 +16,6 @@ export default {
             "3xl": "3rem",
             "4xl": "3.5rem",
         },
-       
     },
     plugins: [],
 };
