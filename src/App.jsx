@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 import Aside from "./Aside";
@@ -27,17 +27,6 @@ function App() {
         setError(false);
     };
 
-    useEffect(() => {
-        if (validEmail) {
-            console.log("email is valid");
-            console.log(error);
-            setError(false);
-        } else {
-            console.log("try again with another email");
-            // setError(true);
-            console.log(error);
-        }
-    }, [validEmail, error]);
     return (
         <>
             {validEmail ? (

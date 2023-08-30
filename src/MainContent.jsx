@@ -3,9 +3,12 @@ import mobileImg from "./assets/images/illustration-sign-up-mobile.svg";
 import desktopImg from "./assets/images/illustration-sign-up-desktop.svg";
 import check from "./assets/images/icon-success.svg";
 
-function MainContent({email, validate, setEmail, error}) {
+function MainContent({ email, validate, setEmail, error }) {
     return (
-        <main className="overflow-auto max-w-[58rem] md:rounded-[36px] mx-auto bg-white md:flex flex-row-reverse md:p-4 md:m-8">
+        <main
+            className="overflow-auto max-w-[58rem] md:rounded-[36px] mx-auto
+         bg-white md:flex flex-row-reverse md:p-4 md:m-8"
+        >
             <div className="flex justify-center md:justify-end">
                 <picture>
                     <source
@@ -67,8 +70,8 @@ function MainContent({email, validate, setEmail, error}) {
                     <button
                         type="submit"
                         className=" bg-[#242742] text-white py-4  
-                focus:bg-gradient-to-r from-[#ff6a3a] to-[#ff523a]
-                 hover:bg-gradient-to-r from-[#ff6a3a] to-[#ff523a]"
+                         focus:bg-gradient-to-r from-[#ff6a3a] to-[#ff523a]
+                         hover:bg-gradient-to-r from-[#ff6a3a] to-[#ff523a]"
                     >
                         Subscribe to monthly newsletter
                     </button>
