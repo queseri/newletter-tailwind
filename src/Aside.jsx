@@ -3,8 +3,8 @@ import check from "./assets/images/icon-success.svg";
 // eslint-disable-next-line react/prop-types
 function Aside({ email, reset }) {
     return (
-        <aside className="h-screen md:p-6 sm:flex sm:justify-center sm:items-center">
-            <div className="flex items-center h-[100%] max-h-[32.5rem] justify-between flex-col sm:rounded-[36px] sm:max-w-[31.5rem] gap-4 bg-white p-16">
+        <aside className="min-h-screen md:p-6 sm:flex sm:justify-center sm:items-center">
+            <div className="flex items-center  justify-between flex-col sm:rounded-[36px] sm:max-w-[31.5rem] gap-4 bg-white p-16">
                 <div className="flex flex-col gap-6">
                     <div>
                         <img src={check} alt="" className="w-[64px] aspect-1" />

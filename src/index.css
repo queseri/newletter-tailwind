@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "robotobold";
+    src: url("./assets/fonts/roboto-bold-webfont.woff2") format("woff2"),
+        url("./assets/fonts/roboto-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "robotoregular";
+    src: url("./assets/fonts/roboto-regular-webfont.woff2") format("woff2"),
+        url("./assets/fonts/roboto-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
-    font-family: "Roboto", sans-serif;
+    font-family: "robotoregular", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
@@ -18,7 +34,6 @@
     -webkit-text-size-adjust: 100%;
 }
 
-
 body {
     background-color: hsla(234, 29%, 20%, 1);
     margin: 0;
@@ -26,6 +41,7 @@ body {
 }
 
 h1 {
+    font-family: "robotobold", sans-serif;
     font-size: 3.2em;
     line-height: 1.1;
 }
