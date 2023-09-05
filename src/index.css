@@ -6,7 +6,7 @@
     font-family: "robotobold";
     src: url("./assets/fonts/roboto-bold-webfont.woff2") format("woff2"),
         url("./assets/fonts/roboto-bold-webfont.woff") format("woff");
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     font-display: swap; /* avoid showing invisible text while fonts loads  */
 }
@@ -46,6 +46,10 @@ h1 {
     font-family: "robotobold", sans-serif;
     font-size: 3.2em;
     line-height: 1.1;
+}
+
+h2 {
+    font-family: "robotobold", sans-serif; 
 }
 
 button {

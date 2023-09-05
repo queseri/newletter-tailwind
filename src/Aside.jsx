@@ -9,7 +9,7 @@ function Aside({ email, reset }) {
                     <div>
                         <img src={check} alt="" className="w-[64px] aspect-1" />
                     </div>
-                    <h2 className="text-[#242742] text-left text-[2.5rem] md:text-[3.5rem] font-bold">
+                    <h2 className="text-[#242742] text-left text-2xl md:text-4xl font-bold">
                         Thanks for subscribing!
                     </h2>
                     <p className="text-[#242742] text-left">

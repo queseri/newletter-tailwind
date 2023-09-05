@@ -7,7 +7,7 @@ function MainContent({ email, validate, setEmail, error }) {
     return (
         <main
             className="overflow-auto max-w-[58rem] md:rounded-[36px] 
-         bg-white md:flex flex-row-reverse md:p-8 md:m-8"
+         bg-white flex flex-col md:flex-row-reverse justify-center items-center md:p-8 md:m-8"
         >
             <div className="flex justify-center md:justify-end md:flex-2">
                 <picture>
