@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile image at 375px](src/assets/screenshots/mobile.png)
+![mobile image at 375px width](src/assets/screenshots/mobile.png)
 ![main desktop ](src/assets/screenshots/desktop.png)
 ![error image](src/assets/screenshots/error.png)
 ![success message](src/assets/screenshots/success.png)
@@ -52,12 +52,18 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://react.dev/) - JS library
 - [Tailwind](https://tailwindcss.com/) - CSS framework
+- [vite](https://vitejs.dev/) - Frontend tooling
 
 ### What I learned
+
+I used this project to practice using tailwind, hence on this occasion my lessons are biased
+towards Tailwind setup and usage.
 
 ### Continued development
 
 ### Useful resources
+
+- [Tailwind](https://tailwindcss.com/)
 
 ## Author
 
